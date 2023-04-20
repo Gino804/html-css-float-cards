@@ -6,3 +6,37 @@
 	padding:0;
 	box-sizing:border-box;
 }
+
+/* Generics */
+
+body
+{
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1
+{
+    font-size:48px;
+    color:#E63774;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+/* Utilities */
+
+.container
+{
+    max-width:1350px;
+    margin:0 auto;
+}
+
+.text-center
+{
+    text-align:center;
+}
+
+.intro
+{
+    font-size:20px;
+    margin-bottom:50px;
+}
