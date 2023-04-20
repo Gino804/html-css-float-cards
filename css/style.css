@@ -35,11 +35,22 @@ h1
     text-align:center;
 }
 
+.clearfix::after
+{
+    content:'';
+    clear:both;
+    display:table;
+}
+
+/* Header */
+
 .intro
 {
     font-size:20px;
     margin-bottom:50px;
 }
+
+/* Cards */
 
 .row
 {
@@ -58,9 +69,36 @@ h1
     margin:10px;
 }
 
-.clearfix::after
+.pfp
 {
-    content:'';
-    clear:both;
-    display:table;
+    float:left;
+    height:100%;
+    padding-bottom:2px;
+}
+
+.card-description
+{
+    width:auto;
+    height:auto;
+    float:left;
+    margin-top:15px;
+    margin-left:10px;
+    line-height:29px;
+}
+
+.card-name
+{
+    font-size:22px;
+}
+
+.card-profession
+{
+    font-size:17px;
+}
+
+.card-email
+{
+    font-style:normal;
+    color:#48A2D1;
+    font-size:17px;
 }
